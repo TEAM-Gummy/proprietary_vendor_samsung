@@ -140,8 +140,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2/proprietary/lib_att/libril.so:system/lib_att/libril.so \
         vendor/samsung/d2/proprietary/lib_r530/libril-qc-qmi-1.so:system/lib_r530/libril-qc-qmi-1.so \
         vendor/samsung/d2/proprietary/lib_r530/libril.so:system/lib_r530/libril.so \
-        vendor/samsung/d2/proprietary/lib_spi/libril-qc-qmi-1.so:system/lib_spr/libril-qc-qmi-1.so \
-        vendor/samsung/d2/proprietary/lib_spi/libril.so:system/lib_spr/libril.so \
+        vendor/samsung/d2/proprietary/lib_spi/libril-qc-qmi-1.so:system/lib_spi/libril-qc-qmi-1.so \
+        vendor/samsung/d2/proprietary/lib_spi/libril.so:system/lib_spi/libril.so \
         vendor/samsung/d2/proprietary/lib_spr/libril-qc-qmi-1.so:system/lib_spr/libril-qc-qmi-1.so \
         vendor/samsung/d2/proprietary/lib_spr/libril.so:system/lib_spr/libril.so \
         vendor/samsung/d2/proprietary/lib_tmo/libril-qc-qmi-1.so:system/lib_tmo/libril-qc-qmi-1.so \
