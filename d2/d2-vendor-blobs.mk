@@ -34,11 +34,13 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
         vendor/samsung/d2/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
         vendor/samsung/d2/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+        vendor/samsung/d2/proprietary/lib/libCB.so:system/lib/libCB.so \
         vendor/samsung/d2/proprietary/lib/libgsl.so:system/lib/libgsl.so \
         vendor/samsung/d2/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
         vendor/samsung/d2/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
         vendor/samsung/d2/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
         vendor/samsung/d2/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+        vendor/samsung/d2/proprietary/lib/libwvm.so:system/lib/libwvm.so \
         vendor/samsung/d2/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/d2/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
         vendor/samsung/d2/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -133,6 +135,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
         vendor/samsung/d2/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
         vendor/samsung/d2/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+        vendor/samsung/d2/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
 
     # Device specific ril blobs
     PRODUCT_COPY_FILES += \
