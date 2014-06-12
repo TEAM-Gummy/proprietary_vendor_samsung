@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
-        vendor/samsung/d2lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
         vendor/samsung/d2lte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
         vendor/samsung/d2lte/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
 
@@ -148,5 +147,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/lib_tmo/libril-qc-qmi-1.so:system/lib_tmo/libril-qc-qmi-1.so \
         vendor/samsung/d2lte/proprietary/lib_tmo/libril.so:system/lib_tmo/libril.so \
         vendor/samsung/d2lte/proprietary/lib_vzw/libril-qc-qmi-1.so:system/lib_vzw/libril-qc-qmi-1.so \
-        vendor/samsung/d2lte/proprietary/lib_vzw/libril.so:system/lib_vzw/libril.so
+        vendor/samsung/d2lte/proprietary/lib_vzw/libril.so:system/lib_vzw/libril.so \
+        vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
+        vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334_murata.hcd:system/vendor/firmware/bcm4334_murata.hcd \
+        vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334_semco.hcd:system/vendor/firmware/bcm4334_semco.hcd
 
