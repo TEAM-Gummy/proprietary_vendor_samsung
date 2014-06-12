@@ -1,5 +1,4 @@
 # Copyright (C) 2011 The CyanogenMod Project
-# Copyright (C) 2014 The Android Open Kang Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,16 +16,16 @@
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/bin/mpdecision:system/bin/mpdecision \
+        vendor/samsung/d2lte/proprietary/bin/radish:system/bin/radish \
         vendor/samsung/d2lte/proprietary/bin/thermald:system/bin/thermald \
-        vendor/samsung/d2lte/proprietary/bin/bcm4334.hcd:system/bin/bcm4334.hcd \
-        vendor/samsung/d2lte/proprietary/bin/bcm4334_murata.hcd:system/bin/bcm4334_murata.hcd \
-        vendor/samsung/d2lte/proprietary/bin/bcm4334_semco.hcd:system/bin/bcm4334_semco.hcd \
         vendor/samsung/d2lte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/d2lte/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+        vendor/samsung/d2lte/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
         vendor/samsung/d2lte/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
         vendor/samsung/d2lte/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/d2lte/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
         vendor/samsung/d2lte/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
+        vendor/samsung/d2lte/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
         vendor/samsung/d2lte/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
         vendor/samsung/d2lte/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
         vendor/samsung/d2lte/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -49,6 +48,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/d2lte/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
         vendor/samsung/d2lte/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+        vendor/samsung/d2lte/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
         vendor/samsung/d2lte/proprietary/bin/netmgrd:system/bin/netmgrd \
         vendor/samsung/d2lte/proprietary/bin/sec-ril:system/bin/sec-ril \
         vendor/samsung/d2lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/cameradata/SlimISP_ZH.bin:system/cameradata/SlimISP_ZH.bin \
         vendor/samsung/d2lte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/d2lte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-        vendor/samsung/d2lte/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+        vendor/samsung/d2lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
         vendor/samsung/d2lte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
         vendor/samsung/d2lte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
         vendor/samsung/d2lte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
@@ -133,8 +133,7 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
-        vendor/samsung/d2lte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
-        vendor/samsung/d2lte/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so
+        vendor/samsung/d2lte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 
     # Device specific ril blobs
     PRODUCT_COPY_FILES += \

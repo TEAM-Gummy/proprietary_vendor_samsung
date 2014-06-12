@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
 	vendor/samsung/apexqtmo/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
 	vendor/samsung/apexqtmo/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+	vendor/samsung/apexqtmo/proprietary/bin/geomagneticd:system/bin/geomagneticd \
 	vendor/samsung/apexqtmo/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/samsung/apexqtmo/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/samsung/apexqtmo/proprietary/bin/sec-ril:system/bin/sec-ril \
@@ -37,11 +38,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/apexqtmo/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
-	vendor/samsung/apexqtmo/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-	vendor/samsung/apexqtmo/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
+	vendor/samsung/apexqtmo/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/samsung/apexqtmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/apexqtmo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/samsung/apexqtmo/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-	vendor/samsung/apexqtmo/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-	vendor/samsung/apexqtmo/proprietary/lib/libril.so:system/lib/libril.so
+	vendor/samsung/apexqtmo/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
