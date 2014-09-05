@@ -30,6 +30,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2lte/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
     vendor/samsung/d2lte/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
     vendor/samsung/d2lte/proprietary/bin/sec-ril:system/bin/sec-ril \
+    vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libril-qc-qmi-1 \
+    vendor/samsung/d2lte/proprietary/blobs/r530/lib/libril.so:system/blobs/r530/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/r530/lib/libsec-ril.so:system/blobs/r530/lib/libril-qc-qmi-1 \
+    vendor/samsung/d2lte/proprietary/blobs/spr/lib/libril.so:system/blobs/spr/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/spr/lib/libsec-ril.so:system/blobs/spr/lib/libril-qc-qmi-1 \
+    vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
+    vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libril-qc-qmi-1 \
     vendor/samsung/d2lte/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/d2lte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
     vendor/samsung/d2lte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
@@ -43,16 +51,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
     vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
     vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh
-
-# Device specific ril blobs
-PRODUCT_COPY_FILES += \
-    vendor/samsung/d2lte/proprietary/lib_att/libril-qc-qmi-1.so:system/lib_att/libril-qc-qmi-1.so \
-    vendor/samsung/d2lte/proprietary/lib_att/libril.so:system/lib_att/libril.so \
-    vendor/samsung/d2lte/proprietary/lib_r530/libril-qc-qmi-1.so:system/lib_r530/libril-qc-qmi-1.so \
-    vendor/samsung/d2lte/proprietary/lib_r530/libril.so:system/lib_r530/libril.so \
-    vendor/samsung/d2lte/proprietary/lib_spr/libril-qc-qmi-1.so:system/lib_spr/libril-qc-qmi-1.so \
-    vendor/samsung/d2lte/proprietary/lib_spr/libril.so:system/lib_spr/libril.so \
-    vendor/samsung/d2lte/proprietary/lib_tmo/libril-qc-qmi-1.so:system/lib_tmo/libril-qc-qmi-1.so \
-    vendor/samsung/d2lte/proprietary/lib_tmo/libril.so:system/lib_tmo/libril.so \
-    vendor/samsung/d2lte/proprietary/lib_vzw/libril-qc-qmi-1.so:system/lib_vzw/libril-qc-qmi-1.so \
-    vendor/samsung/d2lte/proprietary/lib_vzw/libril.so:system/lib_vzw/libril.so
